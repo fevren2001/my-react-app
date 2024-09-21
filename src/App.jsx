@@ -9,6 +9,7 @@ import List from "./List.jsx";
 import Pp from "./pp.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
+import OnChangeComponent from "./OnChangeComponent.jsx";
 
 function App() {
   const emptyList = [];
@@ -50,6 +51,7 @@ function App() {
     <Pp></Pp>
     <MyComponent></MyComponent>
     <Counter></Counter>
+    <OnChangeComponent></OnChangeComponent>
     </>
   );
 }
