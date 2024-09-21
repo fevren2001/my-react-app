@@ -11,6 +11,7 @@ import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import OnChangeComponent from "./OnChangeComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
+import UpdaterFunctionComponent from "./UpdaterFunctionComponent.jsx";
 
 function App() {
   const emptyList = [];
@@ -54,6 +55,7 @@ function App() {
     <Counter></Counter>
     <OnChangeComponent></OnChangeComponent>
     <ColorPicker></ColorPicker>
+    <UpdaterFunctionComponent></UpdaterFunctionComponent>
     </>
   );
 }
