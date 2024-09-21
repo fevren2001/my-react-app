@@ -7,6 +7,8 @@ import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import Pp from "./pp.jsx";
+import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
 
 function App() {
   const emptyList = [];
@@ -46,6 +48,8 @@ function App() {
     {vegetables.length >0 && <List items = {vegetables} category = "Veggies"></List>}
     {emptyList.length > 0 ? <List items = {emptyList} category = "Empty List"></List> : null}
     <Pp></Pp>
+    <MyComponent></MyComponent>
+    <Counter></Counter>
     </>
   );
 }
