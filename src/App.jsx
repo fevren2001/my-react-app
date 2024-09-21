@@ -12,6 +12,7 @@ import Counter from "./Counter.jsx";
 import OnChangeComponent from "./OnChangeComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import UpdaterFunctionComponent from "./UpdaterFunctionComponent.jsx";
+import Car from "./Car.jsx";
 
 function App() {
   const emptyList = [];
@@ -56,6 +57,7 @@ function App() {
     <OnChangeComponent></OnChangeComponent>
     <ColorPicker></ColorPicker>
     <UpdaterFunctionComponent></UpdaterFunctionComponent>
+    <Car></Car>
     </>
   );
 }
