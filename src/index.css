@@ -198,3 +198,21 @@ button:focus-visible {
 .reset-button:hover {
   border-color: #e0a800;
 }
+
+
+.color-picker{
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.colored-text{
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #535bf2;
+}

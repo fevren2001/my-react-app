@@ -10,6 +10,7 @@ import Pp from "./pp.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import OnChangeComponent from "./OnChangeComponent.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 
 function App() {
   const emptyList = [];
@@ -52,6 +53,7 @@ function App() {
     <MyComponent></MyComponent>
     <Counter></Counter>
     <OnChangeComponent></OnChangeComponent>
+    <ColorPicker></ColorPicker>
     </>
   );
 }
