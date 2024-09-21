@@ -6,6 +6,8 @@ import Button from "./Button/Button.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+import Pp from "./pp.jsx";
+
 function App() {
   const emptyList = [];
   const fruits = [
@@ -43,6 +45,7 @@ function App() {
     <List items = {fruits} category = "Fruits"></List>
     {vegetables.length >0 && <List items = {vegetables} category = "Veggies"></List>}
     {emptyList.length > 0 ? <List items = {emptyList} category = "Empty List"></List> : null}
+    <Pp></Pp>
     </>
   );
 }
