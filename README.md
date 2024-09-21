@@ -8,4 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ![image](https://github.com/user-attachments/assets/ee8470fd-f085-4931-b0b1-f6b0146a422d)
+
 With default props, if wrong data type is put, the console will throw an error, so it can be easily debugged
