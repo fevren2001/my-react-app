@@ -36,7 +36,7 @@ function App() {
   ];
   return(
     <>
-    {/* <Header></Header>
+    <Header></Header>
     <Food></Food>
     <Footer></Footer>
     <Card></Card>
@@ -60,7 +60,7 @@ function App() {
     <ColorPicker></ColorPicker>
     <UpdaterFunctionComponent></UpdaterFunctionComponent>
     <Car></Car>
-    <ArrayComponent></ArrayComponent> */}
+    <ArrayComponent></ArrayComponent>
     <Cars></Cars>
     </>
   );
