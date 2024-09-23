@@ -13,6 +13,7 @@ import OnChangeComponent from "./OnChangeComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import UpdaterFunctionComponent from "./UpdaterFunctionComponent.jsx";
 import Car from "./Car.jsx";
+import ArrayComponent from "./ArrayComponent.jsx";
 
 function App() {
   const emptyList = [];
@@ -58,6 +59,7 @@ function App() {
     <ColorPicker></ColorPicker>
     <UpdaterFunctionComponent></UpdaterFunctionComponent>
     <Car></Car>
+    <ArrayComponent></ArrayComponent>
     </>
   );
 }
